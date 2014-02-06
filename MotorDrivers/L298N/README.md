@@ -1,4 +1,4 @@
-L298N Low-Cost, High Voltage, 2A (per channel) Motor Driver
+L298N Low-Cost, High-V, 2A (per channel) Motor Driver
 ===== 
 ** there are two channels, channel "A" and channel "B" **
 
