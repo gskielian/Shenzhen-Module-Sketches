@@ -13,9 +13,12 @@ The price of these was $2.98 each when I last saw them, making them comparable t
 
 ## Description of Code
 
+
+### L298_Test.ino
+
 The `L298N_Test.ino` will allow you to manuallly control your input and output pins on the serial.
 
-### Guide:
+#### Guide:
 
 `A` -- turns on Enable A
 `a` -- offs Enable A
@@ -27,7 +30,13 @@ The `L298N_Test.ino` will allow you to manuallly control your input and output p
 
 `q w e r` --  will turn that input to low (`q w e r` are right below `1 2 3 4` on the keyboard making it really convenient)
 
-### Notes:
+### Stepper Motor Test
+
+//Todo add stepper motor test
+
+---
+
+## General Notes:
 
 * outputs 1 and 2 are enabled by ENA
 
