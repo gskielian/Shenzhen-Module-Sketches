@@ -1,4 +1,5 @@
-## L298N
+L298N Low-Cost, High Voltage, 2channel 2A per channel Motor Driver (4A if combined)
+===== 
 
 These sketches work for the following module -- but will work for any L298N module that have headers for Enable and Input Pins.
 
