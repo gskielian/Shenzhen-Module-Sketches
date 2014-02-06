@@ -1,5 +1,6 @@
-L298N Low-Cost, High Voltage, 2channel 2A per channel Motor Driver (4A if combined)
+L298N Low-Cost, High Voltage, 2A (per channel) Motor Driver
 ===== 
+** there are two channels, channel "A" and channel "B" **
 
 These sketches work for the following module -- but will work for any L298N module that have headers for Enable and Input Pins.
 
@@ -25,5 +26,13 @@ The `L298N_Test.ino` will allow you to manuallly control your input and output p
 `1 2 3 4` --  any number 1-4 will turn that input (and corresponding output) to HIGH
 
 `q w e r` --  will turn that input to low (`q w e r` are right below `1 2 3 4` on the keyboard making it really convenient)
+
+### Notes:
+
+* outputs 1 and 2 are enabled by ENA
+
+* outputs 3 and 4 are enabled by ENB
+
+* feel free to PWM ENA and ENB
 
 
